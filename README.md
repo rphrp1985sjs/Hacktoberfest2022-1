@@ -1,135 +1,132 @@
-Hacktoberfest-2022
+# 🎃 HacktoberFest Starter Project 🎃
 
-**Checkout this Project as well [Annoying Button😡](https://annoyingsubmitbutton.netlify.app/) , It's hacktoberfest github : [https://github.com/fineanmol/Annoying-submit-button](https://github.com/fineanmol/Annoying-submit-button)**
+Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
+Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting involved in the open source community by completing some simple tasks in this project.
 
-# Submit your PR on this new repo [Hacktoberfest](https://github.com/fineanmol/hacktoberfest) , There we are merging all PR. 
-
-In this current repo, there are alot of conflicts, we are not merging until all conflicts get resolved.
-Hacktoberfest { [Live Website](https://fineanmol.github.io/Hacktoberfest2022/)}
+This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
 
 
-**This is a beginner-friendly project to help you get started with your
-[hacktoberfest](https://hacktoberfest.digitalocean.com/). If you don't know where to start, feel free to watch the videos linked below, and read the contribution rules. Happy hacking <3 💙 !!**
+## What is Hacktoberfest?
 
-P.S. Star ⭐ and Share this repository, if you had fun!! 😍
+A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.com/) and [GitHub](https://dev.to/this-is-learning/hacktoberfest-2022-is-almost-there-get-ready-4ifb) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
 
-Hacktoberfest 2022
-![Event Completed](/scripts/Event_Completed.png)
+[https://hacktoberfest.com/](https://hacktoberfest.com/)
 
-# 📌 Videos 📽️:
+## How to contribute to this project
 
-- [Hacktoberfest Intro](https://www.youtube.com/watch?v=mq_FIHdxmIk)
-- [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
-- [Merge Conflict / comment](https://youtu.be/zOx5PJTY8CI)
+Here are 3 quick and painless ways to contribute to this project:
 
+- Add your name to the `CONTRIBUTING.md` file
+- Add a profile page to the `profiles` directory
+- Create a simple "Hello, World" script in a language of your choice
 
-# Contribution Rules📚:
+Choose one or all 3, make a pull request for your work and wait for it to be merged!
 
-- You are allowed to make pull requests that break the rules. We just merge it ;)
-- Do NOT add any build steps e.g npm install (we want to keep this a simple static site)
-- Do NOT remove other content.
-- Styling/code can be pretty, ugly or stupid, big or small as long as it works
-- Add your name to the contributorsList file
-- Try to keep pull requests small to minimize merge conflicts
+## Getting started
 
-
-## Getting Started 🤩🤗:
-
-- Fork this repo (button on top)
-- Clone on your local machine
-
-```terminal
-git clone https://github.com/fineanmol/Hacktoberfest2022.git
-```
-- Navigate to project directory.
-```terminal
-cd Hacktoberfest2022
-```
-
-- Create a new Branch
+- Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
+- Clone your fork down to your local machine
 
 ```markdown
-git checkout -b my-new-branch
+git clone https://github.com/rphrp1985sjs/Hacktoberfest2022.git
 ```
-- Add your Name to `contributors/contributorsList.js`
+
+- Create a branch
+
+```markdown
+git checkout -b branch-name
+```
+
+- Make your changes (choose from any task below)
+- Commit and push
+
 ```markdown
 git add .
+git commit -m 'Commit message'
+git push origin branch-name
 ```
-- Commit your changes.
+
+- Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+- Wait for your PR review and merge approval!
+- **Star this repository** if you had fun!
+
+## Choose from these tasks
+
+### 1. Add your name
+
+Add your name to the `CONTRIBUTORS.md` file using the below convention:
 
 ```markdown
-git commit -m "Relevant message"
+#### Name: [YOUR NAME](GitHub link)
+
+- Place: City, State, Country
+- Bio: Who are you?
+- GitHub: [GitHub account name](GitHub link)
 ```
-- Then push 
+
+### 2. Add a profile page
+
+Add a `Your_Name.md` file to the `profiles` directory. Use any combination of content and Markdown you'd like. Here is an example:
+
 ```markdown
-git push origin my-new-branch
+# Your Name
+
+### Location
+
+Your City/Country
+
+### Academics
+
+Your School
+
+### Interests
+
+- Some Things You Like
+
+### Development
+
+- Inventor of the My Pillow
+
+### Projects
+
+- [My Project](GitHub Link) Short Description
+
+### Profile Link
+
+[Your Name](GitHub Link)
 ```
 
+### 3. Create a `Hello, World!` Script
 
-- Create a new pull request from your forked repository
+Add a `hello_world_yourusername.xx` script to the `scripts` directory in any language of your choice! Here is an example:
 
-<br>
+```Javascript
+// LANGUAGE: Javascript
+// ENV: Node.js
+// AUTHOR: Anmol Agarwal
+// GITHUB: https://github.com/rphrp1985sjs
 
-## Avoid Conflicts {Syncing your fork}
-
-An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
-
-```terminal
-git remote add upstream https://github.com/fineanmol/Hacktoberfest2022
+console.log('Hello, World!');
 ```
 
-You can verify that the new remote has been added by typing
-```terminal
-git remote -v
-```
+Name the file `hello_world_yourusername.xx`. e.g., `hello_world_priya.js`
 
-To pull any new changes from your parent repo simply run
-```terminal
-git merge upstream/master
-```
+Add your scripts to the specific folder for specific languages created.
 
-This will give you any eventual conflicts and allow you to easily solve them in your repo. It's a good idea to use it frequently in between your own commits to make sure that your repo is up to date with its parent.
-
-For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
-
-## Swags of Hacktoberfest:
-- Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2021 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
- 
-     <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
-</b></li>
-
-# FAQs (Frequently Asked Questions)
-
-- Who all can contribute?
-  - Anyone with a github account and who is signed up for
-[hacktoberfest](https://hacktoberfest.digitalocean.com/) :)
-- Are you getting paid for this?
-  - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
-- Who are you and why are you doing this?
-  - We are two programmers from India [Anmol](https://www.linkedin.com/in/fineanmol/)
-  and [Ritesh](https://github.com/ritesh2905). We are doing this because we love Open Source and Hacktoberfest. We want to make it easier for people to get started with Hacktoberfest and Open Source.
-- Why are you not using digitalocean?
-  - Because we only know JavaScript and suck at servers. We use [now](https://zeit.co/now) instead.
-
-- Should I come closer to the text saying 'Don't come closer' on the left side of the home tab ?
-  - Nope.
-- How many pull request (PR) must be made, if I want to get an awesome tshirt from Hacktoberfest 2022?
-  - 4
-- How do I track my progress to get an awesome shirt from Hacktoberfest 2022?
-  - [go to :](https://hacktoberfest.digitalocean.com/profile/). (Check Out Your Own Stats at Right Top)
-- What is the duration of Hacktoberfest 2022?
-  - It is from 1st october to 31st october 2022...
-- What is the event for?
-  - For the open source community engagement
+Don't forget to include the comments as seen above. Feel free to include additional information about the language you choose in your comments too! Like a link to a helpful introduction or tutorial.
 
 
 
+Managing your Forked Repo: [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
-###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
-<br>
+Syncing a Fork: [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
 
-## Our Top Contributors 
-<p align="center"><a href="https://github.com/fineanmol/Hacktoberfest2022/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=fineanmol/Hacktoberfest2022" />
-</a></p>
+Keep Your Fork Synced: [https://gist.github.com/fineanmol/f9b8943230e7031ae78cdcd1755bef32](https://gist.github.com/fineanmol/f9b8943230e7031ae78cdcd1755bef32)
+
+
+
+## Additional references added by contributors
+
+GitHub license explained [https://choosealicense.com](https://choosealicense.com)
+
